@@ -1,0 +1,22 @@
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#primeira-div{
+    background-color: rgba(194, 190, 190, 0.947);
+    width: 400px;
+    height: 100px;
+}
+
+body{
+    height: 100vh;
+}
+
+
+
+
+
+
