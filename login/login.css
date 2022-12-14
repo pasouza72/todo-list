@@ -6,7 +6,7 @@
 }
 
 #primeira-div{
-    background-color: rgba(194, 190, 190, 0.764);
+    background-color: whitesmoke;
     width: 500px;
     height: 400px;
 }
@@ -24,9 +24,33 @@ body{
     flex-direction: column;
 }
 
-#item {
-    
+.container{
+    height: 30%;
+    justify-content: space-around;
+    display: flex;
+    width: 70%;
 }
+
+.coluna {
+    flex-direction: column;
+}
+
+.input {
+    border: 2px solid lightgrey;
+    box-sizing: border-box;
+    border-radius: 32px;
+    height: 48px;
+}
+
+button {
+    width: 70%;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+}
+
+
 
 
 
